@@ -2,11 +2,12 @@ let datos = {};
 /* const url = "https://api.jsonbin.io/v3/b/67848b56e41b4d34e47677a6";
  mail: carlos.alberto
 const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
-// const url = "http://localhost:3000/menu";
 
-const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
+// const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
+const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
+// mail:charly.mil
 
-const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
+// const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
 
 const $container = document.querySelector(".container");
 
@@ -17,19 +18,23 @@ let $seccion = "",
   clase = "A",
   art,
   hh = "",
+  tit="",
+visible="",
   arthh = "";
 
 function llamarDb(url) {
-  fetch(url, {
+  fetch(url
+/*     , {
     headers: {
       "X-Access-Key": key,
     },
-  })
+  } */
+  )
     .then((resp) => resp.json())
     .then((dato) => {
       // console.log(dato)
       // console.log(dato.record.menu);
-      const data = dato.record; //orig = dato.record
+      const data = dato; //orig = dato.record
       // console.log(data)
       // Empezando a armar la estructura de datos
       for (const key in data) {
@@ -44,9 +49,13 @@ function llamarDb(url) {
 
         const seccion = document.createElement("section");
         seccion.classList.add("seccion1");
+        const access=document.createElement("a")
+        access.href=`#${clase}`
         const titulo = document.createElement("h3");
         titulo.classList.add("seccion");
+        titulo.id= `${clase}`
         titulo.innerHTML = `${key}`;
+        access.appendChild(titulo)
         if (key != "id") {
           let clase2 = key.replaceAll(" ", "_");
           seccion.innerHTML = `<div class= 'pictures'><img src='./imagenes/${clase2}.jpg' alt='${key}'></div>`;
@@ -57,7 +66,6 @@ function llamarDb(url) {
             // console.log(datos);
 
             $precio = "";
-
             //Armando el arreglo
             datos[2].forEach((element, i) => {
               
@@ -77,9 +85,11 @@ function llamarDb(url) {
               </div>`;
               }
             });
-            art = `
-            <div class="articulo1">
-            <h4 class="articulo">${datos[0]}</h4>
+            tit = `${datos[0].replaceAll(" ", "_")}`;
+            if (data[key].length===1){
+              visible="class=' articulo1 siempreActiva' "} else{
+              visible ="class=articulo1"};
+            art = `<a href=#${tit}><h4 id=${tit} class="articulo">${datos[0]}</h4></a><div ${visible}>
             <div class="descripcion">${datos[1]}</div>
             <div class="tipos">${$tipos}</div>
             </div>
@@ -103,7 +113,7 @@ function llamarDb(url) {
             // console.log(datos[2][0][1]);
             seccion.innerHTML += art;
 
-            document.querySelector(".menu").appendChild(titulo);
+            document.querySelector(".menu").appendChild(access);
             document.querySelector(".menu").appendChild(seccion);
           }
         }
