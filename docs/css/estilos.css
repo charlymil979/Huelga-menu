@@ -1,5 +1,15 @@
 :root {
   --bordeaux: #4b0000;
+  --bgHTML: rgb(30, 30, 30);
+/*   --bgseccion:rgba(44, 74, 44, 0.6);
+  --bgseccionhh:rgba(44, 74, 44, 0.6); */
+  --bgseccion:rgb(23, 42, 23); 
+  --bgseccionhh:rgba(23, 42, 23);
+  /* --bgseccionhh:rgba(100, 100, 100, 0.7); */
+  --bgsubseccion: rgba(44, 74, 44, 0.7);
+  --bgsubseccionhh: rgba(44, 74, 44, 0.7);
+  --bgarticulo: rgb(67, 90, 90);
+  --bgarticulohh: rgb(67, 90, 90);
   /* font-size: 16px; */
   text-align: center;
   box-sizing: border-box;
@@ -12,7 +22,7 @@ html {
   max-width: 100%;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(30, 30, 30);
+  background-color: var(--bgHTML);
   color: rgb(255, 255, 255);
   margin-right: 5px;
 }
@@ -38,10 +48,11 @@ header {
 
 h3 {
   padding: 0.5vh 0;
-  min-width: 80vw;
+  min-width: 70vw;
+  width:75%;
   background-color: var(--bordeaux);
   border-radius: 5px;
-  margin: 1.5vh auto;
+  margin: 1vh auto;
 }
 
 h4 {
@@ -50,7 +61,8 @@ h4 {
   width: 80%;
   margin: auto;
   border-radius: 5px;
-  margin: 0.5vh auto;
+  margin-top: 0.5vh;
+  /* margin-bottom: 0.5vh; */
 }
 
 main {
@@ -65,8 +77,8 @@ main {
   padding: auto 0;
   margin: 1vh auto;
   width: 100%;
-  background-color: rgb(67, 90, 90);
   border: solid 1px var(--bordeaux);
+  background-color: var(--bgarticulo);
   border-radius: 10px;
 }
 
@@ -75,7 +87,7 @@ main {
   justify-content: space-between;
   /* padding: auto 3vw; */
   margin: 1vh auto;
-  /* background-color: rgb(67, 90, 90); */
+  background-color:var(--bgarticulohh);
   border: solid 1px var(--bordeaux);
   border-radius: 10px;
 } 
@@ -122,20 +134,26 @@ p .mini {
 }
 
 .seccion1 {
-  display: none;
-  transition: 1000ms;
+  /* display: none; */
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: 600ms;
   overflow: hidden;
   padding: 0.5vh 0;
-  background-color: rgba(100, 100, 100, 0.7);
+  background-color: var(--bgseccion);
   border-radius: 5px;
   height: 0;
 }
 
 .articulo1 {
+  height: 0;
   /* display: none; */
   /* transition: 1s; */
+    transform-origin: top;
+  transform: scaleY(0);
+  transition: 600ms;
   overflow: hidden;
-  background-color: darkslategray;
+  background-color: var(--bgsubseccion);
   padding: 0 2vw;
   width: 90vw;
   margin: 2vh 1vw;
@@ -162,6 +180,7 @@ p .mini {
 .pictures img{
   border-radius:8vh 3vh 8vh 3vh;
   margin-top: 2vh;
+  margin-bottom: 3vh;
   max-width: 90%;
 }
 
@@ -209,7 +228,7 @@ footer a {
 }
 
 a {
-  /* animation-duration:500ms; */
+  /* animation-duration:600ms; */
   color: white;
   text-decoration: none;
 }
@@ -224,8 +243,17 @@ a:visited {
 
 .activa {
   display: inherit;
+  transform: scaleY(1);  
+  transition: 600ms;
   height: auto;
   /* transition: 1s; */
+}
+
+.siempreActiva{
+  display: inherit;
+  transform: scaleY(1);  
+  transition: 600ms;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -318,18 +346,22 @@ h2{
   }
 }
 .cerrar {
- color: beige;
+ /* color: beige; */
   text-align:right;
   /* vertical-align: center; */
-  background-color: darkslategray;
+  /* background-color: darkslategray; */
   /* font-size: 2rem; */
   /* width: 9vw; */
-  height: 9vw;
-  border-radius: 1vw;
+  aspect-ratio: 1/1;
+  /* height: 9vmin; */
+  border-radius: 25%;
   /* display: block; */
   position: absolute;
   right: 2vw;
   margin-right: 2vw;
+  background-image: radial-gradient(circle,#ff00ff,purple );
+  color: #fff;
+  box-shadow: 0 0 10px #0f0, 0 0 20px #0f0,0 0 30px #0f0;
 }
 
 .modal .seccion1{
@@ -340,7 +372,7 @@ h2{
 
 .hh1{
   opacity: 0.85;
-  background-color: darkslategrey;
+  background-color: var(--bgsubseccionhh);
   width: 85vw;
   margin:1vw;
   padding:1vw;
@@ -356,6 +388,7 @@ h2{
 .visible {
   display: inherit;
   height: auto;
+  background-color: var(--bgseccionhh);
 }
 
 .click{
