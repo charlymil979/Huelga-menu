@@ -40,7 +40,7 @@ function llamarDb(url) {
       for (const key in data) {
         const seccionhh = document.createElement("section");
         seccionhh.classList.add("seccion1");
-        seccionhh.classList.add("visible");
+        seccionhh.classList.add("siempreActiva");
         let clase = key.replaceAll(" ", "_");
         seccionhh.classList.add(`${clase}`);
         const titulohh = document.createElement("h3");
