@@ -300,50 +300,9 @@
           ""
         ]
       ]
-    ],
-    [
-      "VINO TINTO",
-      "  ",
-      [
-        [
-          "Elementos malbec",
-          "$ 7000",
-          ""
-        ],
-        [
-          "Benjamín malbec",
-          "$ 7000",
-          ""
-        ],
-        [
-          "Benjamín cabernet S.",
-          "$ 7000",
-          ""
-        ],
-        [
-          "Emilia malbec",
-          "$ 9000",
-          ""
-        ]
-      ]
-    ],
-    [
-      "WHISKY",
-      "  ",
-      [
-        [
-          "Red Label",
-          "$ 6500",
-          ""
-        ],
-        [
-          "Black Label",
-          "$ 8500",
-          ""
-        ]
-      ]
     ]
   ],
+  "": [],
   "PLATOS": [
     [
       "*INGREDIENTES*",
@@ -500,7 +459,6 @@
       ]
     ]
   ],
-  "": [],
   "POSTRES": [
     [
       "PANQUEQUE",
