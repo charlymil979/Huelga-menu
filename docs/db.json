@@ -601,69 +601,9 @@
           ""
         ]
       ]
-    ],
-    [
-      "PIZZAS",
-      "  ",
-      [
-        [
-          "  ",
-          "<span class=\"mini\">Media</span><span class=\"mini\">Grande</span>",
-          ""
-        ],
-        [
-          "Muzza",
-          "$ 4000   $ 7400",
-          ""
-        ],
-        [
-          "Napolitana",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Capresse",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Jamón y morrón",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Roquefort",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Rúcula",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Provoleta",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Cuatro Quesos",
-          "$ 5000   $ 8500",
-          ""
-        ],
-        [
-          "Funghi\n<p class=\"mini\">(muzza, verdeo, panceta, champis)</p>",
-          "$ 5400   $ 9000",
-          ""
-        ],
-        [
-          "De la Casa\n<p class=\"mini\">(muzza, cheddar, cebolla\ncaramelizada, bondiola desmenuzada, huevo a la plancha)</p>",
-          "$ 10500",
-          ""
-        ]
-      ]
     ]
   ],
+  "": [],
   "POSTRES": [
     [
       "PANQUEQUE",
@@ -681,6 +621,5 @@
         ]
       ]
     ]
-  ],
-  "": []
+  ]
 }
