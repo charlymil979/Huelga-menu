@@ -1,5 +1,4 @@
 {
-  "": [],
   "CERVEZAS": [
     [
       "GOLDEN",
@@ -157,72 +156,9 @@
           "6000"
         ]
       ]
-    ],
-    [
-      "FERNET",
-      "Branca, el único",
-      [
-        [
-          "Pinta",
-          "3500",
-          "3000"
-        ],
-        [
-          "Litro",
-          "7000",
-          "6000"
-        ]
-      ]
-    ],
-    [
-      "GIN TONIC",
-      "Fresco, cítrico, con agua tónica",
-      [
-        [
-          "Pinta",
-          "3500",
-          "3000"
-        ],
-        [
-          "Litro",
-          "7000",
-          "6000"
-        ]
-      ]
-    ],
-    [
-      "GANCIA",
-      "El Americano",
-      [
-        [
-          "Pinta",
-          "3500",
-          "3000"
-        ],
-        [
-          "Litro",
-          "7000",
-          "6000"
-        ]
-      ]
-    ],
-    [
-      "GARIBALDI",
-      "Campari y jugo de naranja",
-      [
-        [
-          "Pinta",
-          "3500",
-          "3000"
-        ],
-        [
-          "Litro",
-          "7000",
-          "6000"
-        ]
-      ]
     ]
   ],
+  "": [],
   "BEBIDAS SIN ALCOHOL": [
     [
       "AGUA",
