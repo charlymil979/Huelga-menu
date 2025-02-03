@@ -158,7 +158,6 @@
       ]
     ]
   ],
-  "": [],
   "BEBIDAS SIN ALCOHOL": [
     [
       "AGUA",
@@ -681,22 +680,7 @@
           ""
         ]
       ]
-    ],
-    [
-      "PANQUEQUE",
-      "El clásico postre caliente",
-      [
-        [
-          "Manzana al ron",
-          "4000",
-          ""
-        ],
-        [
-          "Dulce de leche",
-          "4000",
-          ""
-        ]
-      ]
     ]
-  ]
+  ],
+  "": []
 }
