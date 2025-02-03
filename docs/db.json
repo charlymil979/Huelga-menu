@@ -90,6 +90,22 @@
           "7000"
         ]
       ]
+    ],
+    [
+      "GOLDEN CON FRAMBUESA",
+      "Un toque frutal a la golden",
+      [
+        [
+          "  Pinta",
+          "3600",
+          ""
+        ],
+        [
+          "Litro",
+          "7000",
+          ""
+        ]
+      ]
     ]
   ],
   "TRAGOS": [
@@ -302,7 +318,6 @@
       ]
     ]
   ],
-  "": [],
   "PLATOS": [
     [
       "*INGREDIENTES*",
