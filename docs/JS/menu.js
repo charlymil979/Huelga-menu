@@ -4,7 +4,7 @@ let datos = {};
 const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 
 // const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
-const url = "https://charlymil979.github.io/Huelga-menu/db.json";
+const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
 // mail:charly.mil
 
 // const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
@@ -19,6 +19,7 @@ let $seccion = "",
   art,
   hh = "",
   tit="",
+  sticky="",
 visible="",
   arthh = "";
 
@@ -38,6 +39,7 @@ function llamarDb(url) {
       // console.log(data)
       // Empezando a armar la estructura de datos
       for (const key in data) {
+        // console.log(data[key])
         const seccionhh = document.createElement("section");
         seccionhh.classList.add("seccion1");
         seccionhh.classList.add("siempreActiva");
@@ -68,7 +70,7 @@ function llamarDb(url) {
             $precio = "";
             //Armando el arreglo
             datos[2].forEach((element, i) => {
-              
+            
                 $tipos += `<div>
               <span class="tipo">${element[0]}</span>
               <span class="precio white-space: pre;">${element[1]}</span>
@@ -89,7 +91,7 @@ function llamarDb(url) {
             if (data[key].length===1){
               visible="class=' articulo1 siempreActiva' "} else{
               visible ="class=articulo1"};
-            art = `<a href=#${tit}><h4 id=${tit} class="articulo">${datos[0]}</h4></a><div ${visible}>
+            art = `<div><h4  class="articulo">${datos[0]}</h4></div><div ${visible}>
             <div class="descripcion">${datos[1]}</div>
             <div class="tipos">${$tipos}</div>
             </div>
