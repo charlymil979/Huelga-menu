@@ -4,7 +4,9 @@ let datos = {};
 const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 
 // const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
+// const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
 const url = "https://charlymil979.github.io/Huelga-menu/BIN-db.json";
+
 // mail:charly.mil
 
 // const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
@@ -39,12 +41,15 @@ function llamarDb(url) {
       // console.log(data)
       // Empezando a armar la estructura de datos
       for (const key in data) {
-        // console.log(data[key])
+      //   console.log(data[key])
         const seccionhh = document.createElement("section");
         seccionhh.classList.add("seccion1");
         seccionhh.classList.add("siempreActiva");
         let clase = key.replaceAll(" ", "_");
-        seccionhh.classList.add(`${clase}`);
+		//   console.log(clase)
+		  if (clase !=""){
+			  seccionhh.classList.add(`${clase}`);
+		  }
         const titulohh = document.createElement("h3");
         titulohh.classList.add("seccion");
         titulohh.innerHTML = `${key}`;
@@ -70,20 +75,43 @@ function llamarDb(url) {
             $precio = "";
             //Armando el arreglo
             datos[2].forEach((element, i) => {
+					let separarTipo = element[0].split("\n")
+					// console.log(separarTipo)
+				let tipo1 = separarTipo[0] ? separarTipo[0].trim() : "";
+				let tipo2 = separarTipo[1] ? separarTipo[1].trim() : "";
+				let precio1 = element[1] ? element[1].trim() : "";
+				let precio2 = element[2] ? element[2].trim() : "";
+				let precio3 = element[3] ? element[3].trim() : "";
+				let precio4 = element[4] ? element[4].trim() : "";
+				let mini="";
+				if(element[0].trim()==="" || element[0]===undefined){
+					mini="mini"
+				}
+				console.log("el 0 = ",element[0], element[0].length)
             
                 $tipos += `<div>
-              <span class="tipo">${element[0]}</span>
-              <span class="precio white-space: pre;">${element[1]}</span>
+              <span class="tipo">${tipo1}<p class= "mini">${tipo2}</p> </span>
+              <span class="${mini} precio">${
+                  Number(precio1)>0 ? "$ " : ""
+                }${precio1}</span>
+              <span class="${mini} precio">${
+                  Number(precio2)>0 ? "$ " : ""
+                }${precio2}</span>
               </div>
               `;
             
               // console.log(element);
 
-              if (element[2] != "" && element[2] != "undefined") {
+              if (element[3] != "" && element[3] != "undefined") {
                 // console.log(element[2]);
                 $tiposhh += `<div>
-              <span class="tipo">${element[0]}</span>
-              <span class="precio">${element[2]}</span>
+              <span class="tipo">${tipo1}<p class= "mini">${tipo2}</p> </span>
+              <span class="${mini} precio">${
+                  Number(precio3) > 0 ? "$ " : ""
+                }${precio3}</span>
+              <span class="${mini} precio">${
+                  Number(precio4) > 0 ? "$ " : ""
+                }${precio4}</span>
               </div>`;
               }
             });
