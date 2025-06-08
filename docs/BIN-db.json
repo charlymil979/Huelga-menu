@@ -963,7 +963,7 @@
   ],
   "ESPECIALES DE LA CASA": [
     [
-      "HAMBURGUESAS",
+      "HAMBURGUESAS DE LA CASA",
       "Una selección especial de sabores",
       [
         [
@@ -1031,6 +1031,5 @@
         ]
       ]
     ]
-  ],
-  "": []
+  ]
 }
