@@ -5,15 +5,8 @@
       "  ",
       [
         [
-          "  ",
-          "Pinta",
-          "Litro",
-          "Pinta",
-          "Litro"
-        ],
-        [
           "Golden",
-          "4000",
+          "",
           "7800",
           "3000",
           "5800"
@@ -97,21 +90,21 @@
           "6500"
         ],
         [
-          "Gancia\nGancia, Sprite, lim贸n",
+          "Gancia\nGancia, Sprite, lim髇",
           "4600",
           "9000",
           "3300",
           "6500"
         ],
         [
-          "Gancia Batido\nGancia, az煤car y lim贸n",
+          "Gancia Batido\nGancia, az鷆ar y lim髇",
           "5200",
           "10000",
           "4000",
           "8000"
         ],
         [
-          "Gancia Americanino\nGancia, bitter, t贸nica",
+          "Gancia Americanino\nGancia, bitter, t髇ica",
           "5200",
           "10000",
           "4000",
@@ -125,14 +118,14 @@
           "6500"
         ],
         [
-          "Campari Tonic\nCampari, t贸nica, lim贸n",
+          "Campari Tonic\nCampari, t髇ica, lim髇",
           "4600",
           "9000",
           "3300",
           "6500"
         ],
         [
-          "Gin Tonic\nGin tirado, t贸nica, lim贸n",
+          "Gin Tonic\nGin tirado, t髇ica, lim髇",
           "4600",
           "9000",
           "3300",
@@ -146,7 +139,7 @@
           "6500"
         ],
         [
-          "Gin Daisy\nGin tirado, granadina, t贸nica",
+          "Gin Daisy\nGin tirado, granadina, t髇ica",
           "5200",
           "10000",
           "4000",
@@ -167,7 +160,7 @@
           "6500"
         ],
         [
-          "Cuba Libre\nRon, Coca Cola, lim贸n",
+          "Cuba Libre\nRon, Coca Cola, lim髇",
           "5000",
           "9800",
           "4000",
@@ -195,21 +188,21 @@
           ""
         ],
         [
-          "Piel de Iguana\nVodka, licor de mel贸n, Sprite",
+          "Piel de Iguana\nVodka, licor de mel髇, Sprite",
           "5000",
           "9800",
           "4000",
           "8000"
         ],
         [
-          "Laguna Azul\nVodka, blue cura莽ao",
+          "Laguna Azul\nVodka, blue cura鏰o",
           "5000",
           "9800",
           "4000",
           "8000"
         ],
         [
-          "Mockingbird\nTequila, licor de menta, lim贸n, azucar",
+          "Mockingbird\nTequila, licor de menta, lim髇, azucar",
           "5500",
           "",
           "",
@@ -223,28 +216,28 @@
           "8000"
         ],
         [
-          "J盲gger Tonic\nJ盲ggermeister, t贸nica",
+          "J鋑ger Tonic\nJ鋑germeister, t髇ica",
           "7000",
           "13600",
           "",
           ""
         ],
         [
-          "Mojito\nRon, t贸nica, az煤car, lim贸n, menta",
+          "Mojito\nRon, t髇ica, az鷆ar, lim髇, menta",
           "5500",
           "4000",
           "",
           ""
         ],
         [
-          "Caipirinha\nCacha莽a, az煤car, lim贸n ",
+          "Caipirinha\nCacha鏰, az鷆ar, lim髇 ",
           "5500",
           "4000",
           "",
           ""
         ],
         [
-          "Caipiroska\nVodka, az煤car, lim贸n",
+          "Caipiroska\nVodka, az鷆ar, lim髇",
           "5500",
           "4000",
           "",
@@ -301,7 +294,7 @@
           ""
         ],
         [
-          "J盲ggermeister",
+          "J鋑germeister",
           "7000",
           "13600",
           "",
@@ -323,7 +316,7 @@
       " ",
       [
         [
-          "J盲ggermeister",
+          "J鋑germeister",
           "5000          ",
           "",
           "",
@@ -382,7 +375,7 @@
     ],
     [
       "CHOPP DE GASEOSA",
-      "Coca Cola, Sprite, t贸nica",
+      "Coca Cola, Sprite, t髇ica",
       [
         [
           "Chopp",
@@ -426,7 +419,7 @@
       "  ",
       [
         [
-          "Cosecha Tard铆a",
+          "Cosecha Tard韆",
           "7500",
           "",
           "",
@@ -446,14 +439,14 @@
           ""
         ],
         [
-          "Benjam铆n malbec",
+          "Benjam韓 malbec",
           "7500",
           "",
           "",
           ""
         ],
         [
-          "Benjam铆n cabernet S.",
+          "Benjam韓 cabernet S.",
           "7500",
           "",
           "",
@@ -516,7 +509,7 @@
           ""
         ],
         [
-          "Con adicional\nA elecci贸n",
+          "Con adicional\nA elecci髇",
           "6800",
           "",
           "",
@@ -591,7 +584,7 @@
           ""
         ],
         [
-          "Jam贸n y morr贸n",
+          "Jam髇 y morr髇",
           "5400",
           "10000",
           "",
@@ -605,7 +598,7 @@
           ""
         ],
         [
-          "R煤cula",
+          "R鷆ula",
           "5400",
           "10000",
           "",
@@ -643,7 +636,7 @@
     ],
     [
       "RAVIOLES FRITOS",
-      "Consulta el relleno disponible, sale con 2 salsas a elecci贸n ",
+      "Consulta el relleno disponible, sale con 2 salsas a elecci髇 ",
       [
         [
           "Sale con fritas",
@@ -655,8 +648,8 @@
       ]
     ],
     [
-      "BAJ脫N BIRRERO",
-      "Papas fritas, Alb贸ndigas, Aceitunas, Acompa帽ado con pan",
+      "BAJ覰 BIRRERO",
+      "Papas fritas, Alb髇digas, Aceitunas, Acompa馻do con pan",
       [
         [
           " ",
@@ -672,14 +665,14 @@
       " ",
       [
         [
-          "Jam贸n y queso",
+          "Jam髇 y queso",
           "8000",
           "",
           "",
           ""
         ],
         [
-          "Jam贸n, queso, r煤cula, tomate",
+          "Jam髇, queso, r鷆ula, tomate",
           "9800",
           "",
           "",
@@ -706,7 +699,7 @@
           ""
         ],
         [
-          "Jam贸n y queso",
+          "Jam髇 y queso",
           " ",
           "",
           "",
@@ -716,7 +709,7 @@
     ],
     [
       "POLLO CRISPY",
-      "Pollo rebozado a la porter, acompa帽ado con papas",
+      "Pollo rebozado a la porter, acompa馻do con papas",
       [
         [
           " Sale con salsa de verdeo",
@@ -745,7 +738,7 @@
       "A la Provenzal",
       [
         [
-          "Porci贸n completa",
+          "Porci髇 completa",
           "12500",
           "",
           "",
@@ -775,7 +768,7 @@
     ],
     [
       "PANCHOS",
-      "Salchicha alemana, con 4 ingredientes a elecci贸n",
+      "Salchicha alemana, con 4 ingredientes a elecci髇",
       [
         [
           " ",
@@ -788,7 +781,7 @@
     ],
     [
       "PICADA HUELGA",
-      "Pollo Crispy, Mila de carne, Muzzarelitas, Salchicha a la mostaza, jam贸n y queso, papas fritas, pan",
+      "Pollo Crispy, Mila de carne, Muzzarelitas, Salchicha a la mostaza, jam髇 y queso, papas fritas, pan",
       [
         [
           "Con 2 salsas...",
@@ -801,7 +794,7 @@
     ],
     [
       "HAMBURGUESAS",
-      "De carne, pollo, o cerdo, salen con fritas y con 4 ingrdientes a elecci贸n",
+      "De carne, pollo, o cerdo, salen con fritas y con 4 ingrdientes a elecci髇",
       [
         [
           "Simple",
@@ -820,13 +813,6 @@
         [
           "Triple",
           "11500",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Cuadruple",
-          "13500",
           "",
           "",
           ""
@@ -872,7 +858,7 @@
           ""
         ],
         [
-          "Napo\nTomate, jam贸n, muzza",
+          "Napo\nTomate, jam髇, muzza",
           "12500",
           "",
           "",
@@ -915,7 +901,7 @@
     ],
     [
       "TACOS",
-      "De M茅xico a HUELGA",
+      "De M閤ico a HUELGA",
       [
         [
           "Carne con picante, pollo con cheddar, cerdo con bbq",
@@ -931,7 +917,7 @@
       "Agregale sabor a tu plato",
       [
         [
-          "Caprese, Verdeo, Mostaza, Barbacoa, T谩rtara, Picante, Mostaza con miel, Salsa HUELGA, Teriyaki, Criolla, Alioli",
+          "Caprese, Verdeo, Mostaza, Barbacoa, T醨tara, Picante, Mostaza con miel, Salsa HUELGA, Teriyaki, Criolla, Alioli",
           "1500",
           "",
           "",
@@ -944,7 +930,7 @@
       "Elegi 4 de estos para tu plato",
       [
         [
-          "Cheddar, Panceta, Jam贸n, Queso, Champi帽ones, Morr贸n, Lechuga, Tomate, Cebolla Caramelizada, Huevo a la Plancha, Tomates Confitados, Pepinillos, Cebolla Caramelizada",
+          "Cheddar, Panceta, Jam髇, Queso, Champi駉nes, Morr髇, Lechuga, Tomate, Cebolla Caramelizada, Huevo a la Plancha, Tomates Confitados, Pepinillos, Cebolla Caramelizada",
           "1500",
           "",
           "",
@@ -956,7 +942,7 @@
   "POSTRES": [
     [
       "PANQUEQUE",
-      "El cl谩sico postre caliente",
+      "El cl醩ico postre caliente",
       [
         [
           "Manzana al ron",
@@ -977,67 +963,67 @@
   ],
   "ESPECIALES DE LA CASA": [
     [
-      "HAMBURGUESAS DE LA CASA",
-      "Una selecci贸n especial de sabores",
+      "HAMBURGUESAS",
+      "Una selecci髇 especial de sabores",
       [
         [
-          "HUELGA\nMedall贸n de carne, provoleta, tomate confitado, salsa Huelga",
+          "HUELGA\nMedall髇 de carne, provoleta, tomate confitado, salsa Huelga",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "HUELGA Doble\nDoble medall贸n de carne, provoleta, tomate confitado, salsa Huelga",
+          "HUELGA Doble\nDoble medall髇 de carne, provoleta, tomate confitado, salsa Huelga",
           "9700",
           "",
           "",
           ""
         ],
         [
-          "Ballestrinque\nMedall贸n de pollo, lechuga, cebolla, salsa teriyaki",
+          "Ballestrinque\nMedall髇 de pollo, lechuga, cebolla, salsa teriyaki",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "Calabrote\nMedall贸n de cerdo, r煤cula, panceta crocante, salsa mostanesa con miel",
+          "Calabrote\nMedall髇 de cerdo, r鷆ula, panceta crocante, salsa mostanesa con miel",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "Beer Elf\nMedall贸n de carne, lechuga, pepinillos, salsa Huelga",
+          "Beer Elf\nMedall髇 de carne, lechuga, pepinillos, salsa Huelga",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "Bandolero\nMedall贸n de carne, cebolla caramelizada, morr贸n, salsa criolla, cheddar",
+          "Bandolero\nMedall髇 de carne, cebolla caramelizada, morr髇, salsa criolla, cheddar",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "Vaquera\nMedall贸n de cerdo, huevo a la plancha, champi帽ones, salsa bbq, mostaza con miel",
+          "Vaquera\nMedall髇 de cerdo, huevo a la plancha, champi駉nes, salsa bbq, mostaza con miel",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "Escota\nMedall贸n de pollo, panceta crocante, jam贸n, salsa cheddar",
+          "Escota\nMedall髇 de pollo, panceta crocante, jam髇, salsa cheddar",
           "8600",
           "",
           "",
           ""
         ],
         [
-          "Lasca\nMedall贸n de lentejas y calabaza, muzzarella, r煤cula, salsa alioli",
+          "Lasca\nMedall髇 de lentejas y calabaza, muzzarella, r鷆ula, salsa alioli",
           "8600",
           "",
           "",
