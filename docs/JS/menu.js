@@ -5,7 +5,7 @@ const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 
 // const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
 // const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
-const url = "https://charlymil979.github.io/Huelga-menu/BIN-db.json";
+const url = "https://api.github.com/repos/charlymil979/Huelga-menu/contents/docs/BIN-db.json";
 
 // mail:charly.mil
 
@@ -26,13 +26,11 @@ visible="",
   arthh = "";
 
 function llamarDb(url) {
-  fetch(url
-/*     , {
-    headers: {
-      "X-Access-Key": key,
-    },
-  } */
-  )
+  fetch(url, {
+      headers: {
+        Accept: "application/vnd.github.v3.raw",
+      },
+    })
     .then((resp) => resp.json())
     .then((dato) => {
       // console.log(dato)
