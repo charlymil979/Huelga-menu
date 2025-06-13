@@ -1,15 +1,6 @@
 let datos = {};
-/* const url = "https://api.jsonbin.io/v3/b/67848b56e41b4d34e47677a6";
- mail: carlos.alberto
-const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 
-// const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
-// const url = "https://huelgabar.github.io/menuHuelga/BIN-db.json";
 const url = "https://api.github.com/repos/charlymil979/Huelga-menu/contents/docs/BIN-db.json";
-
-// mail:charly.mil
-
-// const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
 
 const $container = document.querySelector(".container");
 
@@ -33,7 +24,7 @@ function llamarDb(url) {
     })
     .then((resp) => resp.json())
     .then((dato) => {
-      // console.log(dato)
+      console.log(dato)
       // console.log(dato.record.menu);
       const data = dato; //orig = dato.record
       // console.log(data)
@@ -85,7 +76,7 @@ function llamarDb(url) {
 				if(element[0].trim()==="" || element[0]===undefined){
 					mini="mini"
 				}
-				console.log("el 0 = ",element[0], element[0].length)
+				// console.log("el 0 = ",element[0], element[0].length)
             
                 $tipos += `<div>
               <span class="tipo">${tipo1}<p class= "mini">${tipo2}</p> </span>
