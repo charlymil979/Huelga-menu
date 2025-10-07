@@ -6,17 +6,17 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       type: "bat",
       count: 5,
-      src: "imagenes/bat.svg",
+      src: "https://charlymil979.github.io/Huelga-menu/imagenes/bat.svg",
     },
     {
       type: "spider",
       count: 5,
-      src: "imagenes/spider.svg",
+      src: "https://charlymil979.github.io/Huelga-menu/imagenes/spider.svg",
     },
     {
       type: "web",
       count: 3,
-      src: "imagenes/pumpkin.svg",
+      src: "https://charlymil979.github.io/Huelga-menu/imagenes/pumpkin.svg",
     },
   ];
 
@@ -98,4 +98,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   spawnRandomElement();
 });
+
 
