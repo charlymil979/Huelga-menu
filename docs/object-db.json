@@ -7,9 +7,9 @@
         [
           "Golden",
           "4500",
-          "7800",
-          "3000",
-          "5800"
+          "8800",
+          "3500",
+          "7000"
         ],
         [
           "Honey",
@@ -84,176 +84,197 @@
         ],
         [
           "Fernet\nBranca, Coca Cola",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Gancia\nGancia, Sprite, limón",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Gancia Batido\nGancia, azúcar y limón",
-          "5200",
-          "10000",
-          "4000",
-          "8000"
+          "7000",
+          "13500",
+          "6000",
+          "12000"
         ],
         [
           "Gancia Americanino\nGancia, bitter, tónica",
-          "5200",
-          "10000",
-          "4000",
-          "8000"
+          "7000",
+          "13500",
+          "6000",
+          "12000"
         ],
         [
           "Garibaldi\nCampari, jugo de naranja",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Campari Tonic\nCampari, tónica, limón",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Gin Tonic\nGin tirado, tónica, limón",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Gin Orange\nGin tirado, jugo de naranja",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Gin Daisy\nGin tirado, granadina, tónica",
-          "5200",
-          "10000",
-          "4000",
-          "8000"
+          "6500",
+          "13000",
+          "5500",
+          "11500"
+        ],
+        [
+          "Gin con licor\nLicor de frutos rojos",
+          "6500",
+          "13000",
+          "5500",
+          "11500"
+        ],
+        [
+          "Gin Beefeater",
+          "7000",
+          "14000",
+          "",
+          ""
         ],
         [
           "Destornillador\nVodka, jugo de naranja",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Salty Dog\nVodka, jugo de pomelo",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Cuba Libre\nRon, Coca Cola, limón",
-          "5000",
-          "9800",
-          "4000",
-          "8000"
+          "7000",
+          "13500",
+          "6000",
+          "12000"
         ],
         [
           "Whiscola\nWhisky, Coca Cola",
-          "4600",
-          "9000",
-          "3300",
-          "6500"
+          "5500",
+          "10500",
+          "4500",
+          "9000"
         ],
         [
           "Negroni\nGin tirado, vermouth rosso, bitter",
-          "5500",
+          "7000",
           "",
           "",
           ""
         ],
         [
           "Boulevardier\nWhisky, vermouth rosso, bitter",
-          "5500",
+          "7000",
           "",
           "",
           ""
         ],
         [
           "Piel de Iguana\nVodka, licor de melón, Sprite",
-          "5000",
-          "9800",
-          "4000",
-          "8000"
+          "6500",
+          "13000",
+          "5500",
+          "11000"
         ],
         [
           "Laguna Azul\nVodka, blue curaçao",
-          "5000",
-          "9800",
-          "4000",
-          "8000"
+          "6500",
+          "13000",
+          "5500",
+          "11000"
         ],
         [
           "Mockingbird\nTequila, licor de menta, limón, azucar",
-          "5500",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Tequila Sunrise\nTequila, jugo de naranja, granadina",
-          "5200",
-          "10000",
-          "4000",
-          "8000"
-        ],
-        [
-          "Jägger Tonic\nJäggermeister, tónica",
-          "7000",
-          "13600",
-          "",
-          ""
-        ],
-        [
-          "Mojito\nRon, tónica, azúcar, limón, menta",
-          "5500",
-          "4000",
-          "",
-          ""
-        ],
-        [
-          "Caipirinha\nCachaça, azúcar, limón ",
-          "5500",
-          "4000",
-          "",
-          ""
-        ],
-        [
-          "Caipiroska\nVodka, azúcar, limón",
-          "5500",
-          "4000",
-          "",
-          ""
-        ],
-        [
-          "Submarino\nCerveza golden, tequila",
           "6500",
           "",
           "",
           ""
         ],
         [
-          "Boiler Maker\nCerveza golden, whisky",
-          "6500    ",
+          "Tequila Sunrise\nTequila, jugo de naranja, granadina",
+          "6500",
+          "13000",
+          "5500",
+          "11000"
+        ],
+        [
+          "Jägger Tonic\nJäggermeister, tónica",
+          "7500",
+          "15000",
           "",
+          ""
+        ],
+        [
+          "Mojito\nRon, tónica, azúcar, limón, menta",
+          "6800",
+          "",
+          "5500",
+          ""
+        ],
+        [
+          "Caipirinha\nCachaça, azúcar, limón ",
+          "6800",
+          "",
+          "5500",
+          ""
+        ],
+        [
+          "Caipiroska\nVodka, azúcar, limón",
+          "6800",
+          "",
+          "5500",
+          ""
+        ],
+        [
+          "Submarino\nCerveza golden, tequila",
+          "7000",
+          "",
+          "6000",
+          ""
+        ],
+        [
+          "Boiler Maker\nCerveza golden, whisky",
+          "7000",
+          "",
+          "6000",
+          ""
+        ],
+        [
+          "Trago Huelga\nMix de bebidas, gaseosa lima, limón y menta",
+          "7000",
+          "13500",
           "",
           ""
         ]
@@ -274,36 +295,36 @@
         ],
         [
           "Smirnoff",
-          "5300",
-          "10200",
+          "7000",
+          "14000",
           "",
           ""
         ],
         [
           "Absolut",
-          "6000",
-          "12000",
+          "7500",
+          "15000",
           "",
           ""
         ],
         [
           "Whisky",
-          "5300",
-          "10200",
+          "7000",
+          "14000",
           "",
           ""
         ],
         [
           "Jäggermeister",
-          "7000",
-          "13600",
+          "7500",
+          "15000",
           "",
           ""
         ],
         [
           "Licor\nConsulta los sabores",
-          "5300",
-          "10200",
+          "7000",
+          "13500",
           "",
           ""
         ]
@@ -324,21 +345,21 @@
         ],
         [
           "Smirnoff",
-          "3000",
+          "4000",
           "",
           "",
           ""
         ],
         [
           "Absolut",
-          "4500",
+          "5000",
           "",
           "",
           ""
         ],
         [
           "Tequila",
-          "3000",
+          "4000",
           "",
           "",
           ""
@@ -353,7 +374,7 @@
       [
         [
           "500 cc",
-          "2300",
+          "2700",
           "",
           "",
           ""
@@ -366,8 +387,8 @@
       [
         [
           "Chopp",
-          "2300",
-          "",
+          "2700",
+          "5200",
           "",
           ""
         ]
@@ -379,8 +400,8 @@
       [
         [
           "Chopp",
-          "2300",
-          "",
+          "2700",
+          "5200",
           "",
           ""
         ]
@@ -392,8 +413,8 @@
       [
         [
           "Chopp",
-          "2800",
-          "",
+          "3500",
+          "6600",
           "",
           ""
         ]
@@ -405,7 +426,7 @@
       [
         [
           "Lata 250 cc.",
-          "2800",
+          "3500",
           "",
           "",
           ""
@@ -420,7 +441,7 @@
       [
         [
           "Cosecha Tardía",
-          "7500",
+          "10000",
           "",
           "",
           ""
@@ -433,42 +454,42 @@
       [
         [
           "Elementos malbec",
-          "7500",
+          "11000",
           "",
           "",
           ""
         ],
         [
           "Benjamín malbec",
-          "7500",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Benjamín cabernet S.",
-          "7500",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Emilia malbec",
           "10000",
           "",
           "",
           ""
         ],
         [
+          "Benjamín cabernet S.",
+          "10000",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Emilia malbec",
+          "13000",
+          "",
+          "",
+          ""
+        ],
+        [
           "Espumante",
-          "7500",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Blanco/espumante c/ 2 speed",
-          "12500",
+          "15500",
           "",
           "",
           ""
@@ -503,35 +524,35 @@
       [
         [
           "Solas",
-          "5800",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Con adicional\nA elección",
-          "6800",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Salchipapas",
           "7500",
           "",
           "",
           ""
         ],
         [
+          "Con adicional\nA elección",
+          "8600",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Salchipapas",
+          "9200",
+          "",
+          "",
+          ""
+        ],
+        [
           "Papas HUELGA\nCheddar, panceta, verdeo",
-          "7800",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Super Papas\nCheddar, panceta, verdeo, 3 huevos estrellados, provo rallado",
-          "8800",
+          "11000",
           "",
           "",
           ""
@@ -544,7 +565,7 @@
       [
         [
           " ",
-          "7000",
+          "9000",
           "",
           "",
           ""
@@ -564,71 +585,85 @@
         ],
         [
           "Muzza",
-          "5000",
-          "9200",
+          "7000",
+          "12000",
           "",
           ""
         ],
         [
           "Napolitana",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Capresse",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Jamón y morrón",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Roquefort",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Rúcula",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Provoleta",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Cuatro Quesos",
-          "5400",
-          "10000",
+          "8000",
+          "13500",
           "",
           ""
         ],
         [
           "Funghi\n(muzza, verdeo, panceta, champis)",
-          "6000",
-          "11000",
+          "8500",
+          "16000",
+          "",
+          ""
+        ],
+        [
+          "Huelga\n(4 huevos fritos, papas fritas)",
+          "",
+          "17000",
+          "",
+          ""
+        ],
+        [
+          "Camarones\n(camarones salteados con tomate cherry, albahaca)",
+          "",
+          "18000",
           "",
           ""
         ],
         [
           "De la Casa\n(muzza, cheddar, cebolla caramelizada, bondiola desmenuzada, huevo a la plancha)",
           "",
-          "12500",
+          "18000",
           "",
           ""
         ]
@@ -640,7 +675,7 @@
       [
         [
           "Sale con fritas",
-          "7000",
+          "9000",
           "",
           "",
           ""
@@ -653,7 +688,7 @@
       [
         [
           " ",
-          "7500",
+          "10000",
           "",
           "",
           ""
@@ -666,14 +701,14 @@
       [
         [
           "Jamón y queso",
-          "8000",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Jamón, queso, rúcula, tomate",
-          "9800",
+          "12000",
           "",
           "",
           ""
@@ -693,7 +728,7 @@
         ],
         [
           "Pollo",
-          "1500",
+          "2000",
           "",
           "",
           ""
@@ -713,7 +748,7 @@
       [
         [
           " Sale con salsa de verdeo",
-          "8500",
+          "10500",
           "",
           "",
           ""
@@ -726,7 +761,7 @@
       [
         [
           "Salen con Fritas",
-          "8500",
+          "10000",
           "",
           "",
           ""
@@ -739,14 +774,14 @@
       [
         [
           "Porción completa",
-          "12500",
+          "14000",
           "",
           "",
           ""
         ],
         [
           "Con aros de cebolla",
-          "12500",
+          "14000",
           "",
           "",
           ""
@@ -759,7 +794,7 @@
       [
         [
           " ",
-          "8200",
+          "10500",
           "",
           "",
           ""
@@ -772,7 +807,7 @@
       [
         [
           " ",
-          "6500",
+          "7500",
           "",
           "",
           ""
@@ -785,7 +820,7 @@
       [
         [
           "Con 2 salsas...",
-          "19500",
+          "22000",
           "",
           "",
           ""
@@ -798,21 +833,21 @@
       [
         [
           "Simple",
-          "9000",
+          "10600",
           "",
           "",
           ""
         ],
         [
           "Doble",
-          "10200",
+          "12000",
           "",
           "",
           ""
         ],
         [
           "Triple",
-          "11500",
+          "14000",
           "",
           "",
           ""
@@ -832,7 +867,7 @@
         ],
         [
           "Braseada a la porter",
-          "12500",
+          "14500",
           "",
           "",
           ""
@@ -852,21 +887,21 @@
       [
         [
           "Sola",
-          "11500",
+          "12500",
           "",
           "",
           ""
         ],
         [
           "Napo\nTomate, jamón, muzza",
-          "12500",
+          "14500",
           "",
           "",
           ""
         ],
         [
           "HUELGA\nCheddar, panceta, bbq",
-          "12500",
+          "14500",
           "",
           "",
           ""
@@ -879,7 +914,7 @@
       [
         [
           "Con 4 ingredientes",
-          "12500",
+          "14500",
           "",
           "",
           ""
@@ -892,7 +927,7 @@
       [
         [
           "Capresse",
-          "7500",
+          "8500",
           "",
           "",
           ""
@@ -905,7 +940,7 @@
       [
         [
           "Carne con picante, pollo con cheddar, cerdo con bbq",
-          "8500",
+          "10000",
           "",
           "",
           ""
@@ -946,14 +981,14 @@
       [
         [
           "Manzana al ron",
-          "5200",
+          "6000",
           "",
           "",
           ""
         ],
         [
           "Dulce de leche",
-          "5200",
+          "6000",
           "",
           "",
           ""
@@ -968,63 +1003,63 @@
       [
         [
           "HUELGA\nMedallón de carne, provoleta, tomate confitado, salsa Huelga",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "HUELGA Doble\nDoble medallón de carne, provoleta, tomate confitado, salsa Huelga",
-          "9700",
+          "11500",
           "",
           "",
           ""
         ],
         [
           "Ballestrinque\nMedallón de pollo, lechuga, cebolla, salsa teriyaki",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Calabrote\nMedallón de cerdo, rúcula, panceta crocante, salsa mostanesa con miel",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Beer Elf\nMedallón de carne, lechuga, pepinillos, salsa Huelga",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Bandolero\nMedallón de carne, cebolla caramelizada, morrón, salsa criolla, cheddar",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Vaquera\nMedallón de cerdo, huevo a la plancha, champiñones, salsa bbq, mostaza con miel",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Escota\nMedallón de pollo, panceta crocante, jamón, salsa cheddar",
-          "8600",
+          "10000",
           "",
           "",
           ""
         ],
         [
           "Lasca\nMedallón de lentejas y calabaza, muzzarella, rúcula, salsa alioli",
-          "8600",
+          "10000",
           "",
           "",
           ""
