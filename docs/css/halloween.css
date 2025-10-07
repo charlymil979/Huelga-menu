@@ -17,7 +17,7 @@
 .bat {
     width: 60px;
     height: 40px;
-    background-image: url('./imagenes/bat.svg');
+    background-image: url('imagenes/bat.svg');
     background-size: contain;
     background-repeat: no-repeat;
     /* Mantenemos la animación de vuelo si quieres un movimiento más específico para el murciélago */
@@ -28,7 +28,7 @@
 .spider {
     width: 80px;
     height: 120px;
-    background-image: url('./imagenes/spider.svg');
+    background-image: url('imagenes/spider.svg');
     background-size: contain;
     background-repeat: no-repeat;
     /* Igual que con el murciélago, puedes combinar o usar solo float */
@@ -38,7 +38,7 @@
 .web {
     width: 80px;
     height: 80px;
-    background-image: url('./imagenes/pumpkin.svg');
+    background-image: url('imagenes/pumpkin.svg');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -97,5 +97,6 @@
     }
 
 } */
+
 
 
