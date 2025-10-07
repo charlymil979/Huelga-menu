@@ -6,17 +6,17 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       type: "bat",
       count: 5,
-      src: "../imagenes/bat.svg",
+      src: "imagenes/bat.svg",
     },
     {
       type: "spider",
       count: 5,
-      src: "../imagenes/spider.svg",
+      src: "imagenes/spider.svg",
     },
     {
       type: "web",
       count: 3,
-      src: "../imagenes/pumpkin.svg",
+      src: "imagenes/pumpkin.svg",
     },
   ];
 
@@ -98,3 +98,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   spawnRandomElement();
 });
+
