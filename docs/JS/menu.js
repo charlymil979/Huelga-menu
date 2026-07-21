@@ -1,6 +1,6 @@
 let datos = {};
 
-const url = "https://huelgabar.github.io/menuHuelga/object-db.json";
+const url = "https://charlymil979.github.io/Huelga-menu/docs/object-db.json";
 
 const $container = document.querySelector(".container");
 
